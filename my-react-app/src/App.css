@@ -1,0 +1,14 @@
+li {
+  list-style: none;
+}
+
+.tab-depa {
+  width: 50%;
+}
+
+tr,
+td {
+  text-align: left;
+  white-space: nowrap;
+  width: 50%;
+}
