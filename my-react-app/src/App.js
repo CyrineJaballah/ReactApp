@@ -1,17 +1,17 @@
 import React from 'react';
 import Accueil from './Componants/Accueil';
-import AccueilF from './Componants/AccueilF';
+import Apropos from './Componants/Apropos';
 import Presentation from './Componants/Presentation';
-import PresentationHook from './Componants/PresentationHook';
+import ListDepots from './Componants/ListDepots';
 
 
 function App() {
   return (
     <div className="App">
-      {/*<Accueil />
-        <AccueilF />*/}
-      
-      <PresentationHook />
+     <Accueil />
+     <Apropos/>
+     <Presentation/>
+      <ListDepots/>
     </div>
   );
 }
